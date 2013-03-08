@@ -1,0 +1,62 @@
+#wrapper{
+	width:400px;
+}
+
+label {
+	margin: 15px 0 5px 0;
+	font-size: 15px;
+	float: left;
+	clear: both;
+	width:150px;
+}
+
+  label .required {
+    font-size: 15px;
+    position: relative;
+    top: 0;
+    left: 1px; 
+}
+
+textarea,
+input[type=text] {
+	float: left;
+	clear: both;
+	padding: 5px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #414042; 
+	
+	width:250px;
+}
+
+textarea {
+	height: 135px;
+	resize: none; 
+}
+
+
+.msg-cont {
+	float: left;
+	margin: 30px 5px 0 75px;
+}
+
+
+button {
+	clear: both;
+	float: left;
+	left: 215px;
+	top: 10px;
+	position: relative; 
+}
+
+.error {
+	color: red;
+	float: left;
+	display: none;
+	clear: both;
+	position: relative;
+	top: -5px;
+	font-size: 11px;
+	font-style: italic; 
+}

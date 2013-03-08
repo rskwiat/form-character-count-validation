@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form Message with Basic Validation</title>
+	<link rel="stylesheet" href="css/message.css">
+
+
+</head>
+<body>
+
+	<div id="wrapper">
+
+		<form id="removal-form" action="#" method="get">
+			<label for="username">User Name<span class="required">*</span></label>
+			<input type="text" name="username" minlength="2" id="username"/>
+
+			<label for="date">Posted Date<span class="required">*</span></label>
+			<input type="text" name="date" id="date"/>
+			
+			<label for="message">Message</label>
+			<span class="msg-cont"><span id="msg-count">0</span>/<span>130</span></span>
+			
+			<textarea name="message" id="message" maxlength="130"></textarea>
+			
+			<button name="submit" id="submit" value="Submit" class="btn">Submit</button>	
+			<span class="error">errors</span>
+		</form>
+
+	</div>
+	
+</body>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="js/message.js"></script>
+
+</html>
